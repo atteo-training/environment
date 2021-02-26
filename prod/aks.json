@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "default"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "dnsPrefix": {
+            "value": "prod"
+        },
+        "osDiskSizeGB": {
+            "value": 0
+        },
+        "agentCount": {
+            "value": 2
+        },
+        "agentVMSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "linuxAdminUsername": {
+            "value": "linux"
+        },
+        "sshRSAPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCd6MChdqNyYUlBzrlmcStzD7zLrATcI6A+aG4BSRXOQ+ioMAFou76HBXfCdpzcj4PeJLLggsvDENX/zVTzvCIzx9UhkZky58b0vl9W6lk/8m0uOvIG+uivYhj8GdaDTGk/YIx+PXYr0j1dW2VN6e8xYaGuN+CdfW+HLi6HcgFl6qw2SImJJp42/A8ArAOLvAI5v6NhfnY4l8efb5dBdKQbmQ18yUwsB2muE1W+x2x0ID5xe3yzyy1qa9qOgF4cj+SZt+EyhV/OuQK97nIIJE3wivoRw+CcK7aoV4T4E2xxezEDrrXWpBi1wz5NOJVEz4DVkULgqNFD9LS+FrB9ck0y8yaxG0WS5iyJBYT8h6EHTNe7N5QzFGI05X1lz1Q3LjlAB2NL5f7I8TbhfbaXwqamA8XTv/Ao5H/qy4aYZoGCU6PEJEB7hFKKkuNR7g8u9DkSGhVS10ZA6hqPz+o2VK4hNeihVfHs9baAUD/65eL4YnC36/hSC4TUlb/yNqaaUWCS/aPk7ulazKceCYyop2ycJSLsO7kwhjMnYdrWx1kBYMI5Z48CWU4A1NgyxZaqHTIyB2I7Jc465+U573EvnLLVn5ZxIOizAz/2bnOXOyrLIz50RZiHAedc0AUn+eVolG+bWJTogz53a5TT8xZ8NTjBSzUds2peZvGlzqv67c104w== sentinel@lap0036"
+        },
+        "osType": {
+            "value": "Linux"
+        }
+    }
+}
